@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 # File paths
-world_bank_data = "/Users/tkwong01/Desktop/LafferCurve/DataBank_Data/02ab50f0-5eb0-409c-b700-1a9dbed2df10_Data.csv"
+world_bank_data = "/Users/tkwong01/Desktop/LafferCurve/P_Data_Extract_From_World_Development_Indicators-6/ec94fcfc-30e1-436e-b7cb-c6dc601b8881_Data.csv"
 output_dir = Path("output")
 results_dir = output_dir / "results"
 
