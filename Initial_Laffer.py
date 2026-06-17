@@ -64,8 +64,8 @@ df_final = pd.read_csv(output_file_path)
 # 'x_var' must be 'Year'. 
 # 'y_var' and 'z_var' should be columns (Series Names) present in your Long_Data.csv
 x_var = "Year"
-y_var = "GDP growth (annual %)"  # <-- Replace with your second variable
-z_var = "Inflation, consumer prices (annual %)"  # <-- Replace with your third variable (acts as "elevation")
+y_var = "Tax revenue (% of GDP)"  # <-- Replace with your second variable
+z_var = "Revenue, excluding grants (% of GDP)"  # <-- Replace with your third variable (acts as "elevation")
 
 # [Optional] Filter for a specific country if your dataset contains many countries
 # country_to_plot = "United States"
